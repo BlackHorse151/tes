@@ -1,0 +1,36 @@
+.class public final Ln4/r;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/widget/CompoundButton$OnCheckedChangeListener;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onCheckedChanged(Landroid/widget/CompoundButton;Z)V
+    .locals 0
+
+    if-eqz p2, :cond_0
+
+    const-string p1, "true"
+
+    goto :goto_0
+
+    :cond_0
+    const-string p1, "false"
+
+    :goto_0
+    invoke-static {p1}, Lb1/q;->N(Ljava/lang/String;)Ljava/lang/String;
+
+    return-void
+.end method

@@ -1,0 +1,58 @@
+.class public final Li1/y;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lz0/j;
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Li1/y$a;
+    }
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lz0/j<",
+        "Landroid/graphics/Bitmap;",
+        "Landroid/graphics/Bitmap;",
+        ">;"
+    }
+.end annotation
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(Ljava/lang/Object;IILz0/h;)Lb1/w;
+    .locals 0
+
+    check-cast p1, Landroid/graphics/Bitmap;
+
+    new-instance p2, Li1/y$a;
+
+    invoke-direct {p2, p1}, Li1/y$a;-><init>(Landroid/graphics/Bitmap;)V
+
+    return-object p2
+.end method
+
+.method public final bridge synthetic b(Ljava/lang/Object;Lz0/h;)Z
+    .locals 0
+
+    check-cast p1, Landroid/graphics/Bitmap;
+
+    const/4 p1, 0x1
+
+    return p1
+.end method

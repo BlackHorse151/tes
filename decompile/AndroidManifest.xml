@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="32" android:compileSdkVersionCodename="12" package="xyz.chz.bfm" platformBuildVersionCode="32" platformBuildVersionName="12">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS"/>
+    <uses-permission android:name="android.permission.QUERY_ALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:extractNativeLibs="false" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:name="xyz.chz.bfm.App" android:supportsRtl="true" android:theme="@style/AppTheme" android:usesCleartextTraffic="true" android:windowSoftInputMode="adjustResize">
+        <activity android:name="xyz.chz.bfm.ui.activity.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE_PREFERENCES"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/Apps" android:name="xyz.chz.bfm.ui.activity.AppListActivity"/>
+        <activity android:name="xyz.chz.bfm.ui.activity.DashboardActivity"/>
+        <activity android:label="@string/config_title" android:name="xyz.chz.bfm.ui.activity.ConfigActivity" android:windowSoftInputMode="adjustPan"/>
+        <service android:exported="true" android:icon="@drawable/tile_icon_48" android:label="@string/app_name" android:name="xyz.chz.bfm.service.MyTileService" android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
+            <intent-filter>
+                <action android:name="android.service.quicksettings.action.QS_TILE"/>
+            </intent-filter>
+        </service>
+    </application>
+</manifest>

@@ -1,0 +1,121 @@
+.class public final Lz1/b;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# static fields
+.field public static final a:Lz1/a;
+
+.field public static final b:Lz1/a;
+
+
+# direct methods
+.method public static constructor <clinit>()V
+    .locals 9
+
+    new-instance v6, Lz1/a;
+
+    const-string v1, "MIME"
+
+    const-string v2, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+
+    const/4 v3, 0x1
+
+    const/16 v4, 0x3d
+
+    const/16 v5, 0x4c
+
+    move-object v0, v6
+
+    invoke-direct/range {v0 .. v5}, Lz1/a;-><init>(Ljava/lang/String;Ljava/lang/String;ZCI)V
+
+    sput-object v6, Lz1/b;->a:Lz1/a;
+
+    new-instance v0, Lz1/a;
+
+    const/4 v1, 0x1
+
+    const/16 v2, 0x3d
+
+    .line 1
+    invoke-direct {v0, v6, v1, v2}, Lz1/a;-><init>(Lz1/a;ZC)V
+
+    .line 2
+    sput-object v0, Lz1/b;->b:Lz1/a;
+
+    const/16 v0, 0x80
+
+    new-array v0, v0, [I
+
+    const/16 v1, 0x40
+
+    new-array v2, v1, [C
+
+    new-array v1, v1, [B
+
+    .line 3
+    iget-object v3, v6, Lz1/a;->h:[B
+
+    array-length v4, v3
+
+    const/4 v5, 0x0
+
+    invoke-static {v3, v5, v1, v5, v4}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    iget-object v1, v6, Lz1/a;->g:[C
+
+    array-length v3, v1
+
+    invoke-static {v1, v5, v2, v5, v3}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    iget-object v1, v6, Lz1/a;->f:[I
+
+    array-length v2, v1
+
+    invoke-static {v1, v5, v0, v5, v2}, Ljava/lang/System;->arraycopy(Ljava/lang/Object;ILjava/lang/Object;II)V
+
+    .line 4
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    const-string v1, "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+
+    invoke-direct {v0, v1}, Ljava/lang/StringBuilder;-><init>(Ljava/lang/String;)V
+
+    const-string v1, "+"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->indexOf(Ljava/lang/String;)I
+
+    move-result v1
+
+    const/16 v2, 0x2d
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->setCharAt(IC)V
+
+    const-string v1, "/"
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->indexOf(Ljava/lang/String;)I
+
+    move-result v1
+
+    const/16 v2, 0x5f
+
+    invoke-virtual {v0, v1, v2}, Ljava/lang/StringBuilder;->setCharAt(IC)V
+
+    new-instance v3, Lz1/a;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object v5
+
+    const-string v4, "MODIFIED-FOR-URL"
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const v8, 0x7fffffff
+
+    invoke-direct/range {v3 .. v8}, Lz1/a;-><init>(Ljava/lang/String;Ljava/lang/String;ZCI)V
+
+    return-void
+.end method

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="10.0dip" android:layout_weight="1.0">
+        <LinearLayout android:gravity="center" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:id="@id/btnConfig" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="edit config" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="select core :" android:layout_marginStart="9.0dip" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:layout_marginRight="9.0dip" android:layout_weight="0.0" android:layout_marginStart="9.0dip">
+            <Spinner android:id="@id/coreSelector" android:layout_width="wrap_content" android:layout_height="50.0dip" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:id="@id/clash1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="clash settings:" android:layout_marginStart="9.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clash2" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="find procces" android:layout_weight="1.6" />
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=" :" android:layout_weight="0.1" />
+            <Spinner android:id="@id/spFindProc" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clash8" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="clash options" android:layout_weight="1.6" />
+            <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=" :" android:layout_weight="0.1" />
+            <Spinner android:id="@id/spClashType" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clash5" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/unified_delay" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="unified delay[meta]" android:layout_weight="1.0" />
+            <CheckBox android:textSize="12.0sp" android:id="@id/snifferrs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="sniffer[meta]" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clash6" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/fake_ip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="fake-ip" android:layout_weight="1.0" />
+            <CheckBox android:textSize="12.0sp" android:id="@id/geodata_mod" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="geodata[meta] " android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/clash7" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/subs" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="subscription" android:layout_weight="1.0" />
+        </LinearLayout>
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="module settings:" android:layout_marginStart="9.0dip" />
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/showLog" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="logs" android:layout_weight="1.0" />
+            <CheckBox android:textSize="12.0sp" android:id="@id/quic" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="quic" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/ipv6" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="ipv6" android:layout_weight="1.0" />
+            <CheckBox android:textSize="12.0sp" android:id="@id/port_detect" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="port detect" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/cron" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="crontab" android:layout_weight="1.0" />
+            <CheckBox android:textSize="12.0sp" android:id="@id/geo" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="geox" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <CheckBox android:textSize="12.0sp" android:id="@id/cgr" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="cgroup" android:layout_weight="1.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="NetworkMode" android:layout_weight="1.6" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=":" android:layout_weight="0.1" />
+                <Spinner android:textSize="8.0sp" android:id="@id/spNetworkMode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="ProxyMode" android:layout_weight="1.6" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=":" android:layout_weight="0.1" />
+                <Spinner android:textSize="8.0sp" android:id="@id/spProxyMode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="9.0dip" android:text="CronJob" android:layout_weight="1.6" />
+                <TextView android:layout_width="0.0dip" android:layout_height="wrap_content" android:text=":" android:layout_weight="0.1" />
+                <Spinner android:textSize="8.0sp" android:id="@id/spCronJob" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.5" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="0.0">
+            <Button android:textSize="12.0sp" android:textColor="@color/color_primary" android:id="@id/checkModule" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="check module" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="@color/color_primary" android:id="@id/checkIp" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="MyIP" android:layout_weight="1.0" />
+            <Button android:textSize="12.0sp" android:textColor="@color/color_primary" android:id="@id/aboutApp" android:background="@android:color/transparent" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="about" android:layout_weight="1.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

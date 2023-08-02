@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:consumeSystemWindowsInsets="start|end" app:edgeToEdge="true" app:fitSystemWindowsInsets="start|end"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <rikka.material.widget.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?appBarStyle">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="?actionBarPopupTheme" app:subtitleTextAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Subtitle" app:titleTextAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title" />
+    </rikka.material.widget.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="fill_parent" app:fitSystemWindowsInsets="top">
+        <rikka.widget.switchbar.SwitchBar android:id="@id/master_switch" android:layout_width="fill_parent" android:layout_height="wrap_content" app:switchOffText="@string/enable_whitelist" app:switchOnText="@string/enable_whitelist" />
+        <TextView android:textColor="@android:color/black" android:background="@android:color/darker_gray" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/only_work" />
+        <com.google.android.material.progressindicator.LinearProgressIndicator android:id="@id/progress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:indeterminate="true" app:hideAnimationBehavior="outward" />
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/swipeRefreshLayout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <rikka.widget.borderview.BorderRecyclerView android:id="@id/recyclerView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:borderBottomVisibility="never" app:borderTopDrawable="@null" app:borderTopVisibility="whenTop" app:fitSystemWindowsInsets="bottom" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+    </LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
