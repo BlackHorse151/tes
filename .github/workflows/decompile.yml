@@ -27,7 +27,7 @@ jobs:
 
     - name: Decompiling APK
       run: |
-        apktool d ./a.apk -o decompile -f
+        rm -rf decompile && apktool d ./a.apk -o decompile
 
     - name: Pull Changes
       run: git pull
