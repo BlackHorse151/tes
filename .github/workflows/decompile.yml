@@ -1,0 +1,40 @@
+name: Decompile and Compile APK
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Java
+      uses: actions/setup-java@v2
+      with:
+        java-version: '11'
+
+    - name: Install APKTool
+      run: |
+        wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+        chmod +x apktool
+        sudo mv apktool /usr/local/bin/
+
+    - name: Decompiling APK
+      run: |
+        apktool d path/to/your/app.apk -o decompile
+
+    - name: Pull Changes
+      run: git pull
+    - name: Commit and Push Changes
+      run: |
+        git config --local user.name "github-actions[bot]"
+        git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git add .
+        git commit -m "Decompile APK"
+        git push
