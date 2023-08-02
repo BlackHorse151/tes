@@ -28,8 +28,7 @@ jobs:
     - name: Compile APK
       run: |
         cd decompile
-        chmod +x gradlew
-        ./gradlew assembleRelease
+        apktool b -o ../app-release.apk
 
     - name: Pull Changes
       run: git pull
