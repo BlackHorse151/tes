@@ -20,9 +20,10 @@ jobs:
 
     - name: Install APKTool
       run: |
-        wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool
+        wget https://github.com/iBotPeaches/Apktool/releases/download/v2.5.3/apktool_2.5.3.jar -O apktool.jar
+        wget https://raw.githubusercontent.com/iBotPeaches/Apktool/master/scripts/linux/apktool -O apktool
         chmod +x apktool
-        sudo mv apktool /usr/local/bin/
+        sudo mv apktool apktool.jar /usr/local/bin/
 
     - name: Decompiling APK
       run: |
