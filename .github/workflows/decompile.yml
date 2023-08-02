@@ -1,4 +1,4 @@
-name: Decompile and Compile APK
+name: Decompile APK
 
 on:
   workflow_dispatch:
