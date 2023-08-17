@@ -330,7 +330,7 @@
 
     move-result v9
 
-    const v10, 0x7f0901df
+    const v10, 0x7f0901de
 
     if-ne v9, v10, :cond_1
 

@@ -294,7 +294,7 @@
 
     const/4 v0, 0x0
 
-    invoke-static {p0, v0}, Lb1/q;->I(Landroid/view/View;Lg3/f;)V
+    invoke-static {p0, v0}, Lb1/q;->H(Landroid/view/View;Lg3/f;)V
 
     throw v0
 .end method

@@ -22,15 +22,15 @@
 
     if-eqz p2, :cond_0
 
-    const-string p1, "true"
+    const-string p1, "enable"
 
     goto :goto_0
 
     :cond_0
-    const-string p1, "false"
+    const-string p1, "disable"
 
     :goto_0
-    invoke-static {p1}, Lb1/q;->J(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lb1/q;->K(Ljava/lang/String;)Ljava/lang/String;
 
     return-void
 .end method

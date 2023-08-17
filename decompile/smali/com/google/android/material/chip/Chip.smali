@@ -2753,7 +2753,7 @@
 
     iget-object v0, p0, Lcom/google/android/material/chip/Chip;->i:Lcom/google/android/material/chip/a;
 
-    invoke-static {p0, v0}, Lb1/q;->I(Landroid/view/View;Lg3/f;)V
+    invoke-static {p0, v0}, Lb1/q;->H(Landroid/view/View;Lg3/f;)V
 
     return-void
 .end method

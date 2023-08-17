@@ -1007,7 +1007,7 @@
 
     check-cast v0, Lg3/f;
 
-    invoke-static {p0, v0}, Lb1/q;->I(Landroid/view/View;Lg3/f;)V
+    invoke-static {p0, v0}, Lb1/q;->H(Landroid/view/View;Lg3/f;)V
 
     :cond_0
     return-void

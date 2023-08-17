@@ -34,8 +34,8 @@
     <string name="app_count_in_list" formatted="false">added %d apps in %s</string>
     <string name="app_description" formatted="false">"%s
 version: %s"</string>
-    <string name="app_name">Box for Root</string>
-    <string name="app_version">2.0.8-beta.1</string>
+    <string name="app_name">Box Manager</string>
+    <string name="app_version">2.0.8-Dark</string>
     <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
     <string name="applist_app_info">app info</string>
     <string name="applist_app_store">view in app store</string>

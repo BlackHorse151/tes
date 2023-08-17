@@ -156,7 +156,7 @@
 .method public final b(Landroid/view/View;Landroid/view/KeyEvent;)Z
     .locals 2
 
-    const p2, 0x7f0901c3
+    const p2, 0x7f0901c2
 
     invoke-virtual {p1, p2}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 

@@ -22,15 +22,15 @@
 
     if-eqz p2, :cond_0
 
-    const-string p1, "fake-ip"
+    const-string p1, "true"
 
     goto :goto_0
 
     :cond_0
-    const-string p1, "redir-host"
+    const-string p1, "false"
 
     :goto_0
-    invoke-static {p1}, Lb1/q;->C(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lb1/q;->E(Ljava/lang/String;)Ljava/lang/String;
 
     return-void
 .end method

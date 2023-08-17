@@ -50,7 +50,7 @@
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
         <item name="android:windowExitAnimation">@anim/fade_out</item>
     </style>
-    <style name="AppTheme" parent="@style/Theme.Light" />
+    <style name="AppTheme" parent="@style/Base.AppTheme" />
     <style name="Base" parent="@style/Theme.MaterialComponents">
         <item name="android:colorBackground">@color/background_dark</item>
         <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>

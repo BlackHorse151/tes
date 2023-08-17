@@ -327,7 +327,7 @@
 
     iput-object v7, v0, Landroidx/appcompat/widget/SearchView;->w:Landroid/view/View;
 
-    const v11, 0x7f0901b4
+    const v11, 0x7f0901b3
 
     invoke-virtual {v0, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

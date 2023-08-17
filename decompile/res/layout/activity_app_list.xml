@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:consumeSystemWindowsInsets="start|end" app:edgeToEdge="true" app:fitSystemWindowsInsets="start|end"
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/snackbar" android:layout_width="fill_parent" android:layout_height="fill_parent" app:consumeSystemWindowsInsets="end|start" app:edgeToEdge="true" app:fitSystemWindowsInsets="end|start"
   xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
-    <rikka.material.widget.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="?appBarStyle">
+    <rikka.material.widget.AppBarLayout android:id="@id/app_bar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="appBarStyle">
         <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="?actionBarSize" app:popupTheme="?actionBarPopupTheme" app:subtitleTextAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Subtitle" app:titleTextAppearance="@android:style/TextAppearance.Material.Widget.Toolbar.Title" />
     </rikka.material.widget.AppBarLayout>
     <LinearLayout android:orientation="vertical" android:paddingTop="?actionBarSize" android:layout_width="fill_parent" android:layout_height="fill_parent" app:fitSystemWindowsInsets="top">

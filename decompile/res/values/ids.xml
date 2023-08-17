@@ -258,7 +258,6 @@
     <item type="id" name="snackbar_text" />
     <item type="id" name="snifferrs" />
     <item type="id" name="spClashType" />
-    <item type="id" name="spCronJob" />
     <item type="id" name="spFindProc" />
     <item type="id" name="spNetworkMode" />
     <item type="id" name="spProxyMode" />
