@@ -1,60 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <style name="AlertDialog.AppCompat">
-    </style>
-    <style name="AlertDialog.AppCompat.Light">
-    </style>
-    <style name="AlertDialog.Material">
-        <item name="android:layout">@layout/rd_alert_dialog</item>
-        <item name="listItemLayout">@layout/mtrl_alert_select_dialog_item</item>
-        <item name="multiChoiceItemLayout">@layout/mtrl_alert_select_dialog_multichoice</item>
-        <item name="shapeAppearance">?attr/shapeAppearanceMediumComponent</item>
-        <item name="singleChoiceItemLayout">@layout/mtrl_alert_select_dialog_singlechoice</item>
-    </style>
-    <style name="AlertDialog.Material.Body.Text">
-        <item name="android:textAppearance">?attr/textAppearanceBody2</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
-        <item name="android:lineSpacingExtra">@dimen/rd_material_dialog_line_spacing_extra</item>
-    </style>
-    <style name="AlertDialog.Material.Title.Text">
-        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_high_type</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:layout_gravity">right|center_horizontal|clip_horizontal</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
-        <item name="android:textAlignment">viewStart</item>
-    </style>
-    <style name="AndroidThemeColorAccentYellow">
-        <item name="android:colorAccent">#ffffff00</item>
-    </style>
-    <style name="Animation.AppCompat.Dialog">
-    </style>
-    <style name="Animation.AppCompat.DropDownUp">
-    </style>
-    <style name="Animation.AppCompat.Tooltip">
-    </style>
-    <style name="Animation.Design.BottomSheetDialog">
-        <item name="android:windowEnterAnimation">@anim/design_bottom_sheet_slide_in</item>
-        <item name="android:windowExitAnimation">@anim/design_bottom_sheet_slide_out</item>
-    </style>
-    <style name="Animation.Material.Dialog">
-        <item name="android:windowEnterAnimation">@anim/rd_dialog_enter</item>
-        <item name="android:windowExitAnimation">@anim/rd_dialog_exit</item>
-    </style>
-    <style name="Animation.MaterialComponents.BottomSheetDialog">
-        <item name="android:windowEnterAnimation">@anim/mtrl_bottom_sheet_slide_in</item>
-        <item name="android:windowExitAnimation">@anim/mtrl_bottom_sheet_slide_out</item>
-    </style>
-    <style name="Animation.Preference.SimpleMenuCenter">
-        <item name="android:windowEnterAnimation">@null</item>
-        <item name="android:windowExitAnimation">@anim/shrink_fade_out_center</item>
-    </style>
-    <style name="Animation.WindowEnterExitFade">
-        <item name="android:windowEnterAnimation">@anim/fade_in</item>
-        <item name="android:windowExitAnimation">@anim/fade_out</item>
-    </style>
     <style name="AppTheme">
     </style>
     <style name="Base">
@@ -88,28 +33,6 @@
         <item name="switchBarBackgroundNormal">@color/switchbar_background_dark</item>
         <item name="switchBarStyle">@style/Widget.SwitchBar</item>
         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar</item>
-    </style>
-    <style name="Base.AlertDialog.AppCompat">
-        <item name="android:layout">@layout/abc_alert_dialog_material</item>
-        <item name="buttonIconDimen">@dimen/abc_alert_dialog_button_dimen</item>
-        <item name="listItemLayout">@layout/select_dialog_item_material</item>
-        <item name="listLayout">@layout/abc_select_dialog_material</item>
-        <item name="multiChoiceItemLayout">@layout/select_dialog_multichoice_material</item>
-        <item name="singleChoiceItemLayout">@layout/select_dialog_singlechoice_material</item>
-    </style>
-    <style name="Base.AlertDialog.AppCompat.Light">
-    </style>
-    <style name="Base.Animation.AppCompat.Dialog">
-        <item name="android:windowEnterAnimation">@anim/abc_popup_enter</item>
-        <item name="android:windowExitAnimation">@anim/abc_popup_exit</item>
-    </style>
-    <style name="Base.Animation.AppCompat.DropDownUp">
-        <item name="android:windowEnterAnimation">@anim/abc_grow_fade_in_from_bottom</item>
-        <item name="android:windowExitAnimation">@anim/abc_shrink_fade_out_from_bottom</item>
-    </style>
-    <style name="Base.Animation.AppCompat.Tooltip">
-        <item name="android:windowEnterAnimation">@anim/abc_tooltip_enter</item>
-        <item name="android:windowExitAnimation">@anim/abc_tooltip_exit</item>
     </style>
     <style name="Base.AppTheme">
         <item name="android:windowNoTitle">true</item>
@@ -188,17 +111,6 @@
         <item name="switchBarBackgroundNormal">@color/switchbar_background_dark</item>
         <item name="switchBarStyle">@style/Widget.SwitchBar</item>
         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar</item>
-    </style>
-    <style name="Base.DialogWindowTitle.AppCompat">
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:scrollHorizontally">true</item>
-    </style>
-    <style name="Base.DialogWindowTitleBackground.AppCompat">
-        <item name="android:background">@null</item>
-        <item name="android:paddingLeft">?attr/dialogPreferredPadding</item>
-        <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
-        <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
     </style>
     <style name="Base.Light">
         <item name="android:colorBackground">@color/background_light</item>
