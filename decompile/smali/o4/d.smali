@@ -380,9 +380,9 @@
     .line 2
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
-    invoke-static {p0}, Ls4/a;->a(Landroid/content/Context;)Ljava/lang/String;
+    sget-object v1, Ls4/a;->a:Landroid/content/SharedPreferences;
 
-    move-result-object v1
+    const-string v1, "BLACK"
 
     invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
 
@@ -396,106 +396,49 @@
 .method public final t(Landroid/content/res/Resources$Theme;)V
     .locals 5
 
-    .line 1
-    invoke-static {p0}, Ls4/a;->a(Landroid/content/Context;)Ljava/lang/String;
+    sget-object v0, Ls4/a;->a:Landroid/content/SharedPreferences;
 
-    move-result-object v0
-
-    invoke-virtual {v0}, Ljava/lang/String;->hashCode()I
-
-    move-result v1
-
-    const v2, -0x79209ddf
-
-    const/4 v3, 0x1
-
-    if-eq v1, v2, :cond_1
-
-    const v2, 0x3c597df
-
-    if-eq v1, v2, :cond_0
-
-    goto :goto_0
-
-    :cond_0
-    const-string v1, "BLACK"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    const/4 v0, 0x0
-
-    goto :goto_1
-
-    :cond_1
-    const-string v1, "DEFAULT"
-
-    invoke-virtual {v0, v1}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
-
-    move-result v0
-
-    if-eqz v0, :cond_2
-
-    move v0, v3
-
-    goto :goto_1
-
-    :cond_2
-    :goto_0
-    const/4 v0, -0x1
-
-    :goto_1
-    if-eqz v0, :cond_3
-
-    const v0, 0x7f100213
-
-    goto :goto_2
-
-    :cond_3
     const v0, 0x7f10021e
 
-    .line 2
-    :goto_2
-    invoke-virtual {p1, v0, v3}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
+    const/4 v1, 0x1
 
-    .line 3
+    invoke-virtual {p1, v0, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
+
+    .line 1
     sget-object v0, Ls4/a;->b:Ljava/util/HashMap;
 
-    .line 4
-    sget-object v1, Ls4/a;->a:Landroid/content/SharedPreferences;
+    .line 2
+    sget-object v2, Ls4/a;->a:Landroid/content/SharedPreferences;
 
-    const-string v2, "theme_color"
+    const-string v3, "theme_color"
 
     const-string v4, "COLOR_PRIMARY"
 
-    invoke-interface {v1, v2, v4}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+    invoke-interface {v2, v3, v4}, Landroid/content/SharedPreferences;->getString(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 
-    move-result-object v1
+    move-result-object v2
 
-    .line 5
-    invoke-virtual {v0, v1}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
+    .line 3
+    invoke-virtual {v0, v2}, Ljava/util/HashMap;->get(Ljava/lang/Object;)Ljava/lang/Object;
 
     move-result-object v0
 
     check-cast v0, Ljava/lang/Integer;
 
-    if-nez v0, :cond_4
+    if-nez v0, :cond_0
 
     const v0, 0x7f10024e
 
-    goto :goto_3
+    goto :goto_0
 
-    :cond_4
+    :cond_0
     invoke-virtual {v0}, Ljava/lang/Integer;->intValue()I
 
     move-result v0
 
-    .line 6
-    :goto_3
-    invoke-virtual {p1, v0, v3}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
+    .line 4
+    :goto_0
+    invoke-virtual {p1, v0, v1}, Landroid/content/res/Resources$Theme;->applyStyle(IZ)V
 
     return-void
 .end method

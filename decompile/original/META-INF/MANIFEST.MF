@@ -15,7 +15,7 @@ Name: META-INF/services/z1.o
 SHA-256-Digest: jt+Jx7MVlK54K8FaRSECDEDCm66KYcuER596VuyQx/o=
 
 Name: classes.dex
-SHA-256-Digest: 0dRKou4XcZBTP1sPQtuD5HJXxWR1hE9brHd3NeeTrAw=
+SHA-256-Digest: 6HuQvNEea5J4V70csrWfJO4Vn2hewjxkTr8yTOGExYs=
 
 Name: kotlin/annotation/annotation.kotlin_builtins
 SHA-256-Digest: 98k+cGfKErqbPZTG5UDkwjy2/djJr/cEtVPKumUPw1c=

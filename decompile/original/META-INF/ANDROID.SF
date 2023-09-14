@@ -1,6 +1,6 @@
 Signature-Version: 1.0
 Created-By: 1.0 (Android)
-SHA-256-Digest-Manifest: ElOmuPmY5oikFM5LPFDXWpnlXMBOfg4X/Z4A4T8E0E4=
+SHA-256-Digest-Manifest: LSq2RrT5TwKxheyqkCKq17clgwBlVjFe6/NaC6/E700=
 X-Android-APK-Signed: 2,3
 
 Name: AndroidManifest.xml
@@ -16,7 +16,7 @@ Name: META-INF/services/z1.o
 SHA-256-Digest: Tld7XqP0tf4P2hBLB0902azFAJOSF+LDH0Jg7v5JRfU=
 
 Name: classes.dex
-SHA-256-Digest: cOwJEreX/51VQMqmoJBaBMMYScBoUkhIxrM/2wASmw4=
+SHA-256-Digest: hsS4bqxzYjlY9NC1dXoZn0t1m9UFAbw7h95l2mW8Z9Y=
 
 Name: kotlin/annotation/annotation.kotlin_builtins
 SHA-256-Digest: 2kZfon1lRo0UGgaGv88sZi7sEP+awuzOStpYx9cLGdc=
