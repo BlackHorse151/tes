@@ -217,7 +217,7 @@
         <enum name="auto" value="-1" />
     </attr>
     <attr name="behavior_saveFlags">
-        <flag name="all" value="ffffffff" />
+        <flag name="all" value="-1" />
         <flag name="fitToContents" value="2" />
         <flag name="hideable" value="4" />
         <flag name="none" value="0" />
