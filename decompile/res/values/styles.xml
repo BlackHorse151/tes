@@ -55,9 +55,9 @@
         <item name="android:colorBackground">@color/background_dark</item>
         <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
         <item name="android:listDivider">@drawable/list_divider</item>
-        <item name="android:dividerVertical">?android:listDivider</item>
-        <item name="android:dividerHorizontal">?android:listDivider</item>
-        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
         <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
         <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Surface</item>
@@ -77,7 +77,7 @@
         <item name="outlineButtonBackground">@drawable/material_button_outline_background_dark</item>
         <item name="outlineButtonForeground">@drawable/material_button_outline_foreground</item>
         <item name="outlineButtonStyle">@style/Widget.Material.Button.Outline</item>
-        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?cardBackground</item>
+        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?attr/cardBackground</item>
         <item name="switchBarBackgroundDisabled">@color/switchbar_background_dark</item>
         <item name="switchBarBackgroundNormal">@color/switchbar_background_dark</item>
         <item name="switchBarStyle">@style/Widget.SwitchBar</item>
@@ -107,20 +107,19 @@
     <style name="Base.AppTheme" parent="@style/Theme.Material">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:textAppearanceListItem">?textAppearanceSubtitle1</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:textAppearanceListItem">?attr/textAppearanceSubtitle1</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Surface</item>
         <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
         <item name="appBarStyle">@style/Widget.AppBar.Surface.Raisable</item>
-        <item name="colorError">#ffff0000</item>
-        <item name="colorInstall">#ff0000ff</item>
-        <item name="colorNormal">#ff00ff00</item>
-        <item name="colorOnSecondary">#ffffffff</item>
-        <item name="colorPrimary">#ff000000</item>
-        <item name="colorPrimaryVariant">#ff000000</item>
-        <item name="colorSecondary">#ff000000</item>
-        <item name="colorSecondaryVariant">#ff000000</item>
-        <item name="colorSurface">#ffffffff</item>
+        <item name="colorError">@color/material_red_200</item>
+        <item name="colorInstall">@color/material_blue_200</item>
+        <item name="colorNormal">@color/material_green_200</item>
+        <item name="colorOnSecondary">@android:color/black</item>
+        <item name="colorPrimary">@color/material_blue_700</item>
+        <item name="colorPrimaryVariant">?attr/colorPrimary</item>
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorSecondaryVariant">?attr/colorPrimary</item>
+        <item name="colorSurface">@color/google_grey_900</item>
         <item name="toolbarStyle">@style/Widget.Material.Toolbar</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -128,20 +127,20 @@
     <style name="Base.AppTheme.Light" parent="@style/Theme.Material.Light.LightStatusBar">
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
-        <item name="android:textAppearanceListItem">?textAppearanceSubtitle1</item>
-        <item name="android:statusBarColor">#ff000000</item>
+        <item name="android:textAppearanceListItem">?attr/textAppearanceSubtitle1</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Surface</item>
         <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
         <item name="appBarStyle">@style/Widget.AppBar.Surface.Raisable</item>
-        <item name="colorError">#ffff0000</item>
-        <item name="colorInstall">#ff0000ff</item>
-        <item name="colorNormal">#ff00ff00</item>
-        <item name="colorOnSecondary">#ffffffff</item>
-        <item name="colorPrimary">#ff000000</item>
-        <item name="colorPrimaryVariant">#ff000000</item>
-        <item name="colorSecondary">#ff000000</item>
-        <item name="colorSecondaryVariant">#ff000000</item>
-        <item name="colorSurface">#ffffffff</item>
+        <item name="colorError">@color/material_red_500</item>
+        <item name="colorInstall">@color/material_blue_500</item>
+        <item name="colorNormal">@color/material_green_500</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="colorPrimary">@color/material_blue_700</item>
+        <item name="colorPrimaryVariant">?attr/colorPrimary</item>
+        <item name="colorSecondary">?attr/colorPrimary</item>
+        <item name="colorSecondaryVariant">?attr/colorPrimary</item>
+        <item name="colorSurface">@android:color/white</item>
         <item name="toolbarStyle">@style/Widget.Material.Toolbar</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -156,8 +155,8 @@
     <style name="Base.Dialog" parent="@style/Theme.MaterialComponents.Dialog">
         <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
         <item name="android:listDivider">@drawable/list_divider</item>
-        <item name="android:dividerVertical">?android:listDivider</item>
-        <item name="android:dividerHorizontal">?android:listDivider</item>
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
         <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
         <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Surface</item>
@@ -177,60 +176,18 @@
         <item name="outlineButtonBackground">@drawable/material_button_outline_background_dark</item>
         <item name="outlineButtonForeground">@drawable/material_button_outline_foreground</item>
         <item name="outlineButtonStyle">@style/Widget.Material.Button.Outline</item>
-        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?cardBackground</item>
+        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?attr/cardBackground</item>
         <item name="switchBarBackgroundDisabled">@color/switchbar_background_dark</item>
         <item name="switchBarBackgroundNormal">@color/switchbar_background_dark</item>
         <item name="switchBarStyle">@style/Widget.SwitchBar</item>
         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar</item>
     </style>
-    <style name="Base.DialogWindowTitle.AppCompat" parent="@android:style/Widget">
-        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Title</item>
-        <item name="android:maxLines">1</item>
-        <item name="android:scrollHorizontally">true</item>
-    </style>
-    <style name="Base.DialogWindowTitleBackground.AppCompat" parent="@android:style/Widget">
-        <item name="android:background">@null</item>
-        <item name="android:paddingLeft">?dialogPreferredPadding</item>
-        <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
-        <item name="android:paddingRight">?dialogPreferredPadding</item>
-    </style>
-    <style name="Base.Light" parent="@style/Theme.MaterialComponents.Light">
-        <item name="android:colorBackground">@color/background_light</item>
-        <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
-        <item name="android:listDivider">@drawable/list_divider</item>
-        <item name="android:dividerVertical">?android:listDivider</item>
-        <item name="android:dividerHorizontal">?android:listDivider</item>
-        <item name="android:statusBarColor">?android:colorBackground</item>
-        <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
-        <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
-        <item name="actionBarStyle">@style/Widget.Material.ActionBar.Solid</item>
-        <item name="alertDialogTheme">@style/ThemeOverlay.Material.Dialog.Alert</item>
-        <item name="cardBackground">@color/cardview_light_background</item>
-        <item name="colorAlert">@color/material_red_A200</item>
-        <item name="colorInactive">@color/material_grey_600</item>
-        <item name="colorPrimary">@color/primary_light</item>
-        <item name="colorPrimaryVariant">@color/primary_dark_light</item>
-        <item name="colorSafe">@color/material_green_600</item>
-        <item name="colorWarning">@color/material_orange_700</item>
-        <item name="dialogCornerRadius">@dimen/rd_default_dialog_corner_radius</item>
-        <item name="dialogTheme">@style/ThemeOverlay.Material.Dialog</item>
-        <item name="extendedFloatingActionButtonStyle">@style/Widget.Material.ExtendedFloatingActionButton.Icon</item>
-        <item name="materialButtonHorizontalMarginAmend">@dimen/rd_material_button_horizontal_margin_amend</item>
-        <item name="navigationBarDividerColor">@color/navigation_bar_divider_light</item>
-        <item name="outlineButtonBackground">@drawable/material_button_outline_background</item>
-        <item name="outlineButtonForeground">@drawable/material_button_outline_foreground</item>
-        <item name="outlineButtonStyle">@style/Widget.Material.Button.Outline.Light</item>
-        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?cardBackground</item>
-        <item name="switchBarBackgroundDisabled">@color/switchbar_background_light</item>
-        <item name="switchBarBackgroundNormal">@color/switchbar_background_light</item>
-        <item name="switchBarStyle">@style/Widget.SwitchBar.Light</item>
-        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar</item>
-    </style>
     <style name="Base.Light.Dialog" parent="@style/Theme.MaterialComponents.Light.Dialog">
         <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
+        <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
         <item name="android:listDivider">@drawable/list_divider</item>
-        <item name="android:dividerVertical">?android:listDivider</item>
-        <item name="android:dividerHorizontal">?android:listDivider</item>
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
         <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
         <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Solid</item>
@@ -250,7 +207,7 @@
         <item name="outlineButtonBackground">@drawable/material_button_outline_background</item>
         <item name="outlineButtonForeground">@drawable/material_button_outline_foreground</item>
         <item name="outlineButtonStyle">@style/Widget.Material.Button.Outline.Light</item>
-        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?cardBackground</item>
+        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?attr/cardBackground</item>
         <item name="switchBarBackgroundDisabled">@color/switchbar_background_light</item>
         <item name="switchBarBackgroundNormal">@color/switchbar_background_light</item>
         <item name="switchBarStyle">@style/Widget.SwitchBar.Light</item>
