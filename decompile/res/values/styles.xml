@@ -174,28 +174,6 @@
         <item name="switchBarStyle">@style/Widget.SwitchBar.Light</item>
         <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar</item>
     </style>
-    <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Icon">
-        <item name="android:layout_width">32dp</item>
-        <item name="android:layout_height">32dp</item>
-        <item name="android:src">@null</item>
-        <item name="android:scaleType">fitCenter</item>
-        <item name="android:contentDescription">@string/icon_content_description</item>
-    </style>
-    <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Panel">
-        <item name="android:paddingLeft">?attr/dialogPreferredPadding</item>
-        <item name="android:paddingTop">@dimen/abc_dialog_padding_top_material</item>
-        <item name="android:paddingRight">?attr/dialogPreferredPadding</item>
-        <item name="android:layout_width">match_parent</item>
-        <item name="android:layout_height">wrap_content</item>
-    </style>
-    <style name="Base.MaterialAlertDialog.MaterialComponents.Title.Text">
-        <item name="android:textAppearance">?attr/textAppearanceSubtitle1</item>
-        <item name="android:textColor">@color/material_on_surface_emphasis_high_type</item>
-        <item name="android:ellipsize">end</item>
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
-        <item name="android:singleLine">true</item>
-    </style>
     <style name="Base.TextAppearance.AppCompat">
     </style>
     <style name="Base.TextAppearance.AppCompat.Body1">
@@ -221,10 +199,6 @@
     <style name="Base.TextAppearance.AppCompat.Large">
     </style>
     <style name="Base.TextAppearance.AppCompat.Large.Inverse">
-    </style>
-    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Large">
-    </style>
-    <style name="Base.TextAppearance.AppCompat.Light.Widget.PopupMenu.Small">
     </style>
     <style name="Base.TextAppearance.AppCompat.Medium">
     </style>
