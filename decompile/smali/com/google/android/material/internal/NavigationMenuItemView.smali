@@ -98,7 +98,7 @@
 
     invoke-virtual {p0, p1}, Lcom/google/android/material/internal/NavigationMenuItemView;->setIconSize(I)V
 
-    const p1, 0x7f0900a5
+    const p1, 0x7f0900a6
 
     invoke-virtual {p0, p1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -124,7 +124,7 @@
 
     if-nez v0, :cond_0
 
-    const v0, 0x7f0900a4
+    const v0, 0x7f0900a5
 
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

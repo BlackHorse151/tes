@@ -48,7 +48,7 @@
 
     if-ge p3, p2, :cond_0
 
-    const p2, 0x7f09011d
+    const p2, 0x7f09011e
 
     invoke-interface {p1, p2}, Landroid/view/Menu;->removeItem(I)V
 

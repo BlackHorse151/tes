@@ -46,36 +46,25 @@
 
     if-nez p3, :cond_0
 
-    const-string p1, "premium"
+    const-string p1, "tun"
 
     goto :goto_0
 
     :cond_0
-    const-string p1, "meta"
+    const/4 p1, 0x1
 
-    .line 1
+    if-ne p3, p1, :cond_1
+
+    const-string p1, "whitelist"
+
+    goto :goto_0
+
+    :cond_1
+    const-string p1, "blacklist"
+
     :goto_0
-    new-instance p2, Ljava/lang/StringBuilder;
+    invoke-static {p1}, Lb1/q;->J(Ljava/lang/String;)Ljava/lang/String;
 
-    invoke-direct {p2}, Ljava/lang/StringBuilder;-><init>()V
-
-    const-string p3, "sed -i \'s/clash_option=.*/clash_option=\""
-
-    invoke-virtual {p2, p3}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    const-string p1, "\"/;\' /data/adb/box/settings.ini"
-
-    invoke-virtual {p2, p1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
-
-    invoke-virtual {p2}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
-
-    move-result-object p1
-
-    invoke-static {p1}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
-
-    .line 2
     iget-object p1, p0, Ln4/v;->f:Landroid/app/AlertDialog$Builder;
 
     iget-object p2, p0, Ln4/v;->g:Landroid/view/View;

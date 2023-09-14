@@ -77,7 +77,7 @@
 
     move-result v0
 
-    const v1, 0x7f09019f
+    const v1, 0x7f0901a0
 
     const/4 v2, 0x1
 
@@ -292,7 +292,7 @@
 
     invoke-super {p0}, Landroid/view/View;->onFinishInflate()V
 
-    const v0, 0x7f090031
+    const v0, 0x7f090032
 
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -300,7 +300,7 @@
 
     iput-object v0, p0, Landroidx/appcompat/widget/ActionBarContainer;->h:Landroid/view/View;
 
-    const v0, 0x7f090039
+    const v0, 0x7f09003a
 
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

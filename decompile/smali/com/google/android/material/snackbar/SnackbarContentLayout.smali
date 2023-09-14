@@ -163,7 +163,7 @@
 
     invoke-super {p0}, Landroid/view/View;->onFinishInflate()V
 
-    const v0, 0x7f090194
+    const v0, 0x7f090195
 
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -173,7 +173,7 @@
 
     iput-object v0, p0, Lcom/google/android/material/snackbar/SnackbarContentLayout;->f:Landroid/widget/TextView;
 
-    const v0, 0x7f090193
+    const v0, 0x7f090194
 
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

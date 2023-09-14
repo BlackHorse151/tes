@@ -46,7 +46,7 @@
 
     if-nez p3, :cond_0
 
-    const-string p1, "tun"
+    const-string p1, "tproxy"
 
     goto :goto_0
 
@@ -55,15 +55,15 @@
 
     if-ne p3, p1, :cond_1
 
-    const-string p1, "whitelist"
+    const-string p1, "redirect"
 
     goto :goto_0
 
     :cond_1
-    const-string p1, "blacklist"
+    const-string p1, "mixed"
 
     :goto_0
-    invoke-static {p1}, Lb1/q;->J(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lb1/q;->G(Ljava/lang/String;)Ljava/lang/String;
 
     iget-object p1, p0, Ln4/u;->f:Landroid/app/AlertDialog$Builder;
 

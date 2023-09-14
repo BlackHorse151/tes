@@ -1,4 +1,4 @@
-.class public final Ln4/q;
+.class public final Ln4/a0;
 .super Ljava/lang/Object;
 .source "SourceFile"
 
@@ -30,7 +30,7 @@
     const-string p1, "false"
 
     :goto_0
-    invoke-static {p1}, Lb1/q;->y(Ljava/lang/String;)Ljava/lang/String;
+    invoke-static {p1}, Lb1/q;->L(Ljava/lang/String;)Ljava/lang/String;
 
     return-void
 .end method

@@ -69,7 +69,7 @@
     :goto_0
     invoke-virtual {p0, v0}, Landroid/widget/LinearLayout;->setGravity(I)V
 
-    const v0, 0x7f09019c
+    const v0, 0x7f09019d
 
     invoke-virtual {p0, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

@@ -90,7 +90,39 @@
 
     const-string v2, "\\[Warning\\]"
 
-    const-string v3, "<font color=\"#fe9a01\">[Warning] </font>"
+    const-string v3, "<font color=\"#FF5F15\">[Warning] </font>"
+
+    invoke-virtual {v0, v2, v3}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "Swap"
+
+    const-string v3, "<font color=\"#FF5F15\">Swap</font>"
+
+    invoke-virtual {v0, v2, v3}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "CPU"
+
+    const-string v3, "<font color=\"#FF5F15\">CPU</font>"
+
+    invoke-virtual {v0, v2, v3}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "Memory"
+
+    const-string v3, "<font color=\"#FF5F15\">Memory</font>"
+
+    invoke-virtual {v0, v2, v3}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v0
+
+    const-string v2, "Runtime"
+
+    const-string v3, "<font color=\"#FF5F15\">Runtime</font>"
 
     invoke-virtual {v0, v2, v3}, Ljava/lang/String;->replaceAll(Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
 

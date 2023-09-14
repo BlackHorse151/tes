@@ -59,7 +59,7 @@
 
     check-cast p1, Landroid/view/ViewGroup;
 
-    const v0, 0x7f090134
+    const v0, 0x7f090135
 
     invoke-virtual {p1, v0}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 
@@ -97,7 +97,7 @@
 
     move-result-object v0
 
-    const v1, 0x7f090134
+    const v1, 0x7f090135
 
     invoke-virtual {p1, v1, v0}, Landroid/view/View;->setTag(ILjava/lang/Object;)V
 

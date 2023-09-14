@@ -50,7 +50,7 @@
         <item name="android:windowEnterAnimation">@anim/fade_in</item>
         <item name="android:windowExitAnimation">@anim/fade_out</item>
     </style>
-    <style name="AppTheme" parent="@style/Base.AppTheme" />
+    <style name="AppTheme" parent="@style/Theme.Light" />
     <style name="Base" parent="@style/Theme.MaterialComponents">
         <item name="android:colorBackground">@color/background_dark</item>
         <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
@@ -108,18 +108,19 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:textAppearanceListItem">?textAppearanceSubtitle1</item>
+        <item name="android:statusBarColor">#ff000000</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Surface</item>
         <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
         <item name="appBarStyle">@style/Widget.AppBar.Surface.Raisable</item>
-        <item name="colorError">@color/material_red_200</item>
-        <item name="colorInstall">@color/material_blue_200</item>
-        <item name="colorNormal">@color/material_green_200</item>
-        <item name="colorOnSecondary">@android:color/black</item>
-        <item name="colorPrimary">@color/material_blue_700</item>
-        <item name="colorPrimaryVariant">?colorPrimary</item>
-        <item name="colorSecondary">?colorPrimary</item>
-        <item name="colorSecondaryVariant">?colorPrimary</item>
-        <item name="colorSurface">@color/google_grey_900</item>
+        <item name="colorError">#ffff0000</item>
+        <item name="colorInstall">#ff0000ff</item>
+        <item name="colorNormal">#ff00ff00</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorPrimary">#ff000000</item>
+        <item name="colorPrimaryVariant">#ff000000</item>
+        <item name="colorSecondary">#ff000000</item>
+        <item name="colorSecondaryVariant">#ff000000</item>
+        <item name="colorSurface">#ffffffff</item>
         <item name="toolbarStyle">@style/Widget.Material.Toolbar</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
@@ -128,19 +129,19 @@
         <item name="android:windowNoTitle">true</item>
         <item name="android:windowActionBar">false</item>
         <item name="android:textAppearanceListItem">?textAppearanceSubtitle1</item>
-        <item name="android:statusBarColor">?android:colorBackground</item>
+        <item name="android:statusBarColor">#ff000000</item>
         <item name="actionBarStyle">@style/Widget.Material.ActionBar.Surface</item>
         <item name="actionBarTheme">@style/ThemeOverlay.ActionBar</item>
         <item name="appBarStyle">@style/Widget.AppBar.Surface.Raisable</item>
-        <item name="colorError">@color/material_red_500</item>
-        <item name="colorInstall">@color/material_blue_500</item>
-        <item name="colorNormal">@color/material_green_500</item>
-        <item name="colorOnSecondary">@android:color/white</item>
-        <item name="colorPrimary">@color/material_blue_700</item>
-        <item name="colorPrimaryVariant">?colorPrimary</item>
-        <item name="colorSecondary">?colorPrimary</item>
-        <item name="colorSecondaryVariant">?colorPrimary</item>
-        <item name="colorSurface">@android:color/white</item>
+        <item name="colorError">#ffff0000</item>
+        <item name="colorInstall">#ff0000ff</item>
+        <item name="colorNormal">#ff00ff00</item>
+        <item name="colorOnSecondary">#ffffffff</item>
+        <item name="colorPrimary">#ff000000</item>
+        <item name="colorPrimaryVariant">#ff000000</item>
+        <item name="colorSecondary">#ff000000</item>
+        <item name="colorSecondaryVariant">#ff000000</item>
+        <item name="colorSurface">#ffffffff</item>
         <item name="toolbarStyle">@style/Widget.Material.Toolbar</item>
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

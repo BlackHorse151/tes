@@ -120,7 +120,7 @@
 
     invoke-virtual {v11, v5}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
-    const v10, 0x7f090064
+    const v10, 0x7f090065
 
     invoke-virtual {v5, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -140,7 +140,7 @@
 
     invoke-virtual {v10, v11}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v10, 0x7f09006f
+    const v10, 0x7f090070
 
     invoke-virtual {v5, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -156,7 +156,7 @@
 
     invoke-virtual {v10, v11}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v10, 0x7f09008b
+    const v10, 0x7f09008c
 
     invoke-virtual {v5, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -166,7 +166,7 @@
 
     check-cast v11, Landroid/widget/Spinner;
 
-    const v10, 0x7f090079
+    const v10, 0x7f09007a
 
     invoke-virtual {v5, v10}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -174,7 +174,7 @@
 
     check-cast v10, Landroid/widget/TextView;
 
-    const v12, 0x7f09007a
+    const v12, 0x7f09007b
 
     invoke-virtual {v5, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -184,7 +184,7 @@
 
     move-object/from16 v20, v13
 
-    const v13, 0x7f09007b
+    const v13, 0x7f09007c
 
     invoke-virtual {v5, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -194,7 +194,7 @@
 
     move-object/from16 v21, v14
 
-    const v14, 0x7f09007c
+    const v14, 0x7f09007d
 
     invoke-virtual {v5, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -204,7 +204,7 @@
 
     move-object/from16 v22, v15
 
-    const v15, 0x7f09007d
+    const v15, 0x7f09007e
 
     invoke-virtual {v5, v15}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -212,7 +212,7 @@
 
     check-cast v15, Landroid/widget/LinearLayout;
 
-    const v1, 0x7f09007e
+    const v1, 0x7f09007f
 
     invoke-virtual {v5, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -222,7 +222,7 @@
 
     move-object/from16 v23, v4
 
-    const v4, 0x7f09018c
+    const v4, 0x7f09018d
 
     invoke-virtual {v5, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -330,7 +330,7 @@
     invoke-virtual {v11, v6}, Landroid/widget/AdapterView;->setSelection(I)V
 
     :goto_0
-    new-instance v8, Ln4/s;
+    new-instance v8, Ln4/t;
 
     move-object v6, v8
 
@@ -380,11 +380,11 @@
 
     move-object/from16 v15, v26
 
-    invoke-direct/range {v6 .. v15}, Ln4/s;-><init>(Lxyz/chz/bfm/ui/activity/MainActivity;Landroid/widget/TextView;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
+    invoke-direct/range {v6 .. v15}, Ln4/t;-><init>(Lxyz/chz/bfm/ui/activity/MainActivity;Landroid/widget/TextView;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/widget/LinearLayout;Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
 
     invoke-virtual {v5, v2}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    const v2, 0x7f09019a
+    const v2, 0x7f09019b
 
     move-object/from16 v5, v26
 
@@ -462,15 +462,15 @@
     invoke-virtual {v2, v9}, Landroid/widget/AdapterView;->setSelection(I)V
 
     :goto_2
-    new-instance v6, Ln4/t;
+    new-instance v6, Ln4/u;
 
     move-object/from16 v8, v18
 
-    invoke-direct {v6, v8, v5}, Ln4/t;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
+    invoke-direct {v6, v8, v5}, Ln4/u;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
 
     invoke-virtual {v2, v6}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    const v2, 0x7f09019b
+    const v2, 0x7f09019c
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -542,13 +542,13 @@
     invoke-virtual {v2, v9}, Landroid/widget/AdapterView;->setSelection(I)V
 
     :goto_4
-    new-instance v6, Ln4/u;
+    new-instance v6, Ln4/v;
 
-    invoke-direct {v6, v8, v5}, Ln4/u;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
+    invoke-direct {v6, v8, v5}, Ln4/v;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
 
     invoke-virtual {v2, v6}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    const v2, 0x7f090198
+    const v2, 0x7f090199
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -592,13 +592,13 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/AdapterView;->setSelection(I)V
 
-    new-instance v6, Ln4/v;
+    new-instance v6, Ln4/w;
 
-    invoke-direct {v6, v8, v5}, Ln4/v;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
+    invoke-direct {v6, v8, v5}, Ln4/w;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
 
     invoke-virtual {v2, v6}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
-    const v2, 0x7f0900c2
+    const v2, 0x7f0900c3
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -622,13 +622,13 @@
     .line 13
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
-    new-instance v6, Ln4/w;
+    new-instance v6, Ln4/x;
 
-    invoke-direct {v6}, Ln4/w;-><init>()V
+    invoke-direct {v6}, Ln4/x;-><init>()V
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f0901eb
+    const v2, 0x7f0901ec
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -652,13 +652,13 @@
     .line 15
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
-    new-instance v6, Ln4/x;
+    new-instance v6, Ln4/y;
 
-    invoke-direct {v6}, Ln4/x;-><init>()V
+    invoke-direct {v6}, Ln4/y;-><init>()V
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f0900ce
+    const v2, 0x7f0900cf
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -680,13 +680,13 @@
     .line 17
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
-    new-instance v6, Ln4/y;
+    new-instance v6, Ln4/z;
 
-    invoke-direct {v6}, Ln4/y;-><init>()V
+    invoke-direct {v6}, Ln4/z;-><init>()V
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f090197
+    const v2, 0x7f090198
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -708,13 +708,13 @@
     .line 19
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
-    new-instance v6, Ln4/z;
+    new-instance v6, Ln4/a0;
 
-    invoke-direct {v6}, Ln4/z;-><init>()V
+    invoke-direct {v6}, Ln4/a0;-><init>()V
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f090158
+    const v2, 0x7f090159
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -742,7 +742,7 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f09015f
+    const v2, 0x7f090160
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -772,7 +772,7 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f0900e9
+    const v2, 0x7f0900ea
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -800,7 +800,7 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f09008e
+    const v2, 0x7f09008f
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -828,7 +828,7 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f0900cd
+    const v2, 0x7f0900ce
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -856,7 +856,7 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f09006b
+    const v2, 0x7f090007
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -864,18 +864,18 @@
 
     check-cast v2, Landroid/widget/CheckBox;
 
-    const-string v6, "grep \'cgroup_memory=\' /data/adb/box/settings.ini | sed \'s/^.*=//\' | sed \'s/\"//g\'"
+    const-string v6, "grep \'run_usage=\' /data/adb/box/settings.ini | sed \'s/^.*=//\' | sed \'s/\"//g\'"
 
     .line 30
     invoke-static {v6}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v6
 
-    .line 31
-    invoke-static {v6}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+    invoke-virtual {v9, v6}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v6
 
+    .line 31
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
 
     new-instance v6, Ln4/p;
@@ -884,7 +884,7 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f0901b4
+    const v2, 0x7f09006c
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -892,7 +892,7 @@
 
     check-cast v2, Landroid/widget/CheckBox;
 
-    const-string v6, "grep \'update_subscription=\' /data/adb/box/settings.ini | sed \'s/^.*=//\' | sed \'s/\"//g\'"
+    const-string v6, "grep \'cgroup_memory=\' /data/adb/box/settings.ini | sed \'s/^.*=//\' | sed \'s/\"//g\'"
 
     .line 32
     invoke-static {v6}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
@@ -912,7 +912,35 @@
 
     invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
 
-    const v2, 0x7f090199
+    const v2, 0x7f0901b5
+
+    invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
+
+    move-result-object v2
+
+    check-cast v2, Landroid/widget/CheckBox;
+
+    const-string v6, "grep \'update_subscription=\' /data/adb/box/settings.ini | sed \'s/^.*=//\' | sed \'s/\"//g\'"
+
+    .line 34
+    invoke-static {v6}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object v6
+
+    .line 35
+    invoke-static {v6}, Ljava/lang/Boolean;->parseBoolean(Ljava/lang/String;)Z
+
+    move-result v6
+
+    invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setChecked(Z)V
+
+    new-instance v6, Ln4/r;
+
+    invoke-direct {v6}, Ln4/r;-><init>()V
+
+    invoke-virtual {v2, v6}, Landroid/widget/CompoundButton;->setOnCheckedChangeListener(Landroid/widget/CompoundButton$OnCheckedChangeListener;)V
+
+    const v2, 0x7f09019a
 
     invoke-virtual {v5, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -932,14 +960,14 @@
 
     const-string v3, "grep \'find-process-mode:\' /data/adb/box/clash/config.yaml | awk \'{print $2}\'"
 
-    .line 34
+    .line 36
     invoke-static {v3}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v4
 
     move-object/from16 v6, v30
 
-    .line 35
+    .line 37
     invoke-virtual {v6, v4}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v4
@@ -950,13 +978,13 @@
 
     goto :goto_5
 
-    .line 36
+    .line 38
     :cond_7
     invoke-static {v3}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
 
     move-result-object v3
 
-    .line 37
+    .line 39
     invoke-virtual {v1, v3}, Ljava/lang/String;->equals(Ljava/lang/Object;)Z
 
     move-result v1
@@ -976,15 +1004,15 @@
     invoke-virtual {v2, v1}, Landroid/widget/AdapterView;->setSelection(I)V
 
     :goto_6
-    new-instance v1, Ln4/r;
+    new-instance v1, Ln4/s;
 
-    invoke-direct {v1, v8, v5}, Ln4/r;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
+    invoke-direct {v1, v8, v5}, Ln4/s;-><init>(Landroid/app/AlertDialog$Builder;Landroid/view/View;)V
 
     invoke-virtual {v2, v1}, Landroid/widget/AdapterView;->setOnItemSelectedListener(Landroid/widget/AdapterView$OnItemSelectedListener;)V
 
     invoke-virtual {v8, v5}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
-    const v1, 0x7f09006e
+    const v1, 0x7f09006f
 
     invoke-virtual {v5, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1000,7 +1028,7 @@
 
     invoke-virtual {v1, v2}, Landroid/view/View;->setOnClickListener(Landroid/view/View$OnClickListener;)V
 
-    const v1, 0x7f09000e
+    const v1, 0x7f09000f
 
     invoke-virtual {v5, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1048,7 +1076,7 @@
 
     return-void
 
-    .line 38
+    .line 40
     :goto_7
     iget-object v2, v1, Ln4/d;->g:Lxyz/chz/bfm/ui/activity/MainActivity;
 
@@ -1056,7 +1084,7 @@
 
     invoke-static {v2}, Ljava/util/Objects;->requireNonNull(Ljava/lang/Object;)Ljava/lang/Object;
 
-    .line 39
+    .line 41
     invoke-static {v2}, Landroid/view/LayoutInflater;->from(Landroid/content/Context;)Landroid/view/LayoutInflater;
 
     move-result-object v0
@@ -1073,7 +1101,7 @@
 
     invoke-virtual {v3, v0}, Landroid/app/AlertDialog$Builder;->setView(Landroid/view/View;)Landroid/app/AlertDialog$Builder;
 
-    const v4, 0x7f0901e9
+    const v4, 0x7f0901ea
 
     invoke-virtual {v0, v4}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -1085,7 +1113,7 @@
 
     const-string v0, "\n"
 
-    .line 40
+    .line 42
     :try_start_0
     new-instance v5, Ljava/lang/StringBuilder;
 
@@ -1295,7 +1323,7 @@
 
     move-result-object v0
 
-    .line 41
+    .line 43
     :goto_a
     invoke-virtual {v4, v0}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 

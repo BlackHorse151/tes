@@ -253,7 +253,7 @@
     :cond_5
     iget-object v2, p1, Lb/g;->y:Landroid/view/ViewGroup;
 
-    const v6, 0x7f09003f
+    const v6, 0x7f090040
 
     invoke-virtual {v2, v6}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

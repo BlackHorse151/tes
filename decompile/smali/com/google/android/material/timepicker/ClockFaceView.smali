@@ -101,7 +101,7 @@
 
     invoke-virtual {v5, v6, p0, v3}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v5, 0x7f09010b
+    const v5, 0x7f09010c
 
     invoke-virtual {p0, v5}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -292,7 +292,7 @@
 
     invoke-virtual {v1, v2}, Landroid/widget/TextView;->setText(Ljava/lang/CharSequence;)V
 
-    const v2, 0x7f09011b
+    const v2, 0x7f09011c
 
     invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
 

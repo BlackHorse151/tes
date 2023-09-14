@@ -112,7 +112,7 @@
 
     invoke-virtual {p2}, Landroid/view/accessibility/AccessibilityNodeInfo;->getText()Ljava/lang/CharSequence;
 
-    const p2, 0x7f0901b9
+    const p2, 0x7f0901ba
 
     .line 3
     invoke-virtual {p1, p2}, Landroid/view/View;->getTag(I)Ljava/lang/Object;

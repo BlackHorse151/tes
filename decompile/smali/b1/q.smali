@@ -1798,7 +1798,35 @@
     return-object p0
 .end method
 
-.method public static O([CIIII)Ljava/math/BigDecimal;
+.method public static O(Ljava/lang/String;)Ljava/lang/String;
+    .locals 2
+
+    new-instance v0, Ljava/lang/StringBuilder;
+
+    invoke-direct {v0}, Ljava/lang/StringBuilder;-><init>()V
+
+    const-string v1, "sed -i \'s/run_usage=.*/run_usage=\""
+
+    invoke-virtual {v0, v1}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    const-string p0, "\"/;\' /data/adb/box/settings.ini"
+
+    invoke-virtual {v0, p0}, Ljava/lang/StringBuilder;->append(Ljava/lang/String;)Ljava/lang/StringBuilder;
+
+    invoke-virtual {v0}, Ljava/lang/StringBuilder;->toString()Ljava/lang/String;
+
+    move-result-object p0
+
+    invoke-static {p0}, Lp4/e;->a(Ljava/lang/String;)Ljava/lang/String;
+
+    move-result-object p0
+
+    return-object p0
+.end method
+
+.method public static P([CIIII)Ljava/math/BigDecimal;
     .locals 2
 
     if-le p2, p4, :cond_0
@@ -1809,7 +1837,7 @@
 
     sub-int/2addr v1, v0
 
-    invoke-static {p0, p1, v0, v1, p4}, Lb1/q;->O([CIIII)Ljava/math/BigDecimal;
+    invoke-static {p0, p1, v0, v1, p4}, Lb1/q;->P([CIIII)Ljava/math/BigDecimal;
 
     move-result-object v1
 
@@ -1817,7 +1845,7 @@
 
     sub-int/2addr p2, v0
 
-    invoke-static {p0, p1, p2, p3, p4}, Lb1/q;->O([CIIII)Ljava/math/BigDecimal;
+    invoke-static {p0, p1, p2, p3, p4}, Lb1/q;->P([CIIII)Ljava/math/BigDecimal;
 
     move-result-object p0
 
@@ -2755,7 +2783,7 @@
     sub-int v4, v11, v10
 
     .line 2
-    invoke-static {v0, v10, v4, v2, v1}, Lb1/q;->O([CIIII)Ljava/math/BigDecimal;
+    invoke-static {v0, v10, v4, v2, v1}, Lb1/q;->P([CIIII)Ljava/math/BigDecimal;
 
     move-result-object v4
 
@@ -2769,7 +2797,7 @@
 
     sub-int/2addr v2, v3
 
-    invoke-static {v0, v11, v3, v2, v1}, Lb1/q;->O([CIIII)Ljava/math/BigDecimal;
+    invoke-static {v0, v11, v3, v2, v1}, Lb1/q;->P([CIIII)Ljava/math/BigDecimal;
 
     move-result-object v0
 
@@ -2782,7 +2810,7 @@
     :cond_10
     sub-int/2addr v3, v10
 
-    invoke-static {v0, v10, v3, v2, v1}, Lb1/q;->O([CIIII)Ljava/math/BigDecimal;
+    invoke-static {v0, v10, v3, v2, v1}, Lb1/q;->P([CIIII)Ljava/math/BigDecimal;
 
     move-result-object v0
 

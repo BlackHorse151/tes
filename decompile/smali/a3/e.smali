@@ -194,7 +194,7 @@
 
     const/16 v6, 0x8
 
-    const v7, 0x7f09016a
+    const v7, 0x7f09016b
 
     if-ne v5, v6, :cond_4
 

@@ -299,7 +299,7 @@
 
     invoke-virtual {v1, v7, v0, v10}, Landroid/view/LayoutInflater;->inflate(ILandroid/view/ViewGroup;Z)Landroid/view/View;
 
-    const v1, 0x7f09017e
+    const v1, 0x7f09017f
 
     invoke-virtual {v0, v1}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -311,7 +311,7 @@
 
     invoke-virtual {v1, v0}, Landroidx/appcompat/widget/SearchView$SearchAutoComplete;->setSearchView(Landroidx/appcompat/widget/SearchView;)V
 
-    const v7, 0x7f09017a
+    const v7, 0x7f09017b
 
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -319,7 +319,7 @@
 
     iput-object v7, v0, Landroidx/appcompat/widget/SearchView;->v:Landroid/view/View;
 
-    const v7, 0x7f09017d
+    const v7, 0x7f09017e
 
     invoke-virtual {v0, v7}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -327,7 +327,7 @@
 
     iput-object v7, v0, Landroidx/appcompat/widget/SearchView;->w:Landroid/view/View;
 
-    const v11, 0x7f0901b3
+    const v11, 0x7f0901b4
 
     invoke-virtual {v0, v11}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -335,7 +335,7 @@
 
     iput-object v11, v0, Landroidx/appcompat/widget/SearchView;->x:Landroid/view/View;
 
-    const v12, 0x7f090178
+    const v12, 0x7f090179
 
     invoke-virtual {v0, v12}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -345,7 +345,7 @@
 
     iput-object v12, v0, Landroidx/appcompat/widget/SearchView;->y:Landroid/widget/ImageView;
 
-    const v13, 0x7f09017b
+    const v13, 0x7f09017c
 
     invoke-virtual {v0, v13}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -355,7 +355,7 @@
 
     iput-object v13, v0, Landroidx/appcompat/widget/SearchView;->z:Landroid/widget/ImageView;
 
-    const v14, 0x7f090179
+    const v14, 0x7f09017a
 
     invoke-virtual {v0, v14}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -365,7 +365,7 @@
 
     iput-object v14, v0, Landroidx/appcompat/widget/SearchView;->A:Landroid/widget/ImageView;
 
-    const v15, 0x7f09017f
+    const v15, 0x7f090180
 
     invoke-virtual {v0, v15}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 
@@ -375,7 +375,7 @@
 
     iput-object v15, v0, Landroidx/appcompat/widget/SearchView;->B:Landroid/widget/ImageView;
 
-    const v2, 0x7f09017c
+    const v2, 0x7f09017d
 
     invoke-virtual {v0, v2}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

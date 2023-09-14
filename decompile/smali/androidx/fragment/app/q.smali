@@ -3144,7 +3144,7 @@
     :goto_6
     const/16 v2, 0x8
 
-    const v8, 0x7f0900cc
+    const v8, 0x7f0900cd
 
     if-le p2, v6, :cond_1c
 
@@ -8120,7 +8120,7 @@
 
     if-eqz v0, :cond_1
 
-    const v1, 0x7f0901f3
+    const v1, 0x7f0901f4
 
     invoke-virtual {v0, v1}, Landroid/view/View;->getTag(I)Ljava/lang/Object;
 

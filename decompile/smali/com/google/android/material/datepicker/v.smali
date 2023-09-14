@@ -241,7 +241,7 @@
 
     iget-object p1, p1, Lcom/google/android/material/datepicker/v$a;->A:Lcom/google/android/material/datepicker/MaterialCalendarGridView;
 
-    const v0, 0x7f090122
+    const v0, 0x7f090123
 
     invoke-virtual {p1, v0}, Landroid/view/View;->findViewById(I)Landroid/view/View;
 

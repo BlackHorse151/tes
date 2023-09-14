@@ -32,11 +32,11 @@
 
     if-eqz p1, :cond_0
 
-    const p1, 0x7f090067
+    const p1, 0x7f090068
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setNextFocusLeftId(I)V
 
-    const p1, 0x7f090085
+    const p1, 0x7f090086
 
     invoke-virtual {p0, p1}, Landroid/view/View;->setNextFocusRightId(I)V
 
