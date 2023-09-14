@@ -9,6 +9,38 @@
         <item name="shapeAppearance">?shapeAppearanceMediumComponent</item>
         <item name="singleChoiceItemLayout">@layout/mtrl_alert_select_dialog_singlechoice</item>
     </style>
+    <style name="Base.Light">
+        <item name="android:colorBackground">@color/background_light</item>
+        <item name="android:backgroundDimAmount">@dimen/rd_material_dialog_default_dim_amount</item>
+        <item name="android:listDivider">@drawable/list_divider</item>
+        <item name="android:dividerVertical">?android:attr/listDivider</item>
+        <item name="android:dividerHorizontal">?android:attr/listDivider</item>
+        <item name="android:statusBarColor">?android:attr/colorBackground</item>
+        <item name="android:ambientShadowAlpha">@dimen/ambient_shadow_alpha</item>
+        <item name="android:spotShadowAlpha">@dimen/spot_shadow_alpha</item>
+        <item name="actionBarStyle">@style/Widget.Material.ActionBar.Solid</item>
+        <item name="alertDialogTheme">@style/ThemeOverlay.Material.Dialog.Alert</item>
+        <item name="cardBackground">@color/cardview_light_background</item>
+        <item name="colorAlert">@color/material_red_A200</item>
+        <item name="colorInactive">@color/material_grey_600</item>
+        <item name="colorPrimary">@color/primary_light</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_light</item>
+        <item name="colorSafe">@color/material_green_600</item>
+        <item name="colorWarning">@color/material_orange_700</item>
+        <item name="dialogCornerRadius">@dimen/rd_default_dialog_corner_radius</item>
+        <item name="dialogTheme">@style/ThemeOverlay.Material.Dialog</item>
+        <item name="extendedFloatingActionButtonStyle">@style/Widget.Material.ExtendedFloatingActionButton.Icon</item>
+        <item name="materialButtonHorizontalMarginAmend">@dimen/rd_material_button_horizontal_margin_amend</item>
+        <item name="navigationBarDividerColor">@color/navigation_bar_divider_light</item>
+        <item name="outlineButtonBackground">@drawable/material_button_outline_background</item>
+        <item name="outlineButtonForeground">@drawable/material_button_outline_foreground</item>
+        <item name="outlineButtonStyle">@style/Widget.Material.Button.Outline.Light</item>
+        <item name="swipeRefreshLayoutProgressSpinnerBackgroundColor">?attr/cardBackground</item>
+        <item name="switchBarBackgroundDisabled">@color/switchbar_background_light</item>
+        <item name="switchBarBackgroundNormal">@color/switchbar_background_light</item>
+        <item name="switchBarStyle">@style/Widget.SwitchBar.Light</item>
+        <item name="switchBarTheme">@style/ThemeOverlay.SwitchBar</item>
+    </style>
     <style name="AlertDialog.Material.Body.Text" parent="@style/TextAppearance.MaterialComponents.Body2">
         <item name="android:textAppearance">?textAppearanceBody2</item>
         <item name="android:textColor">@color/material_on_surface_emphasis_medium</item>
